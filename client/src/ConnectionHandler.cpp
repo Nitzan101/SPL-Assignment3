@@ -7,7 +7,6 @@ using std::cout;
 using std::cerr;
 using std::endl;
 using std::string;
-using
 
 ConnectionHandler::ConnectionHandler(string host, short port) : host_(host), port_(port), io_service_(),
                                                                 socket_(io_service_) {}
